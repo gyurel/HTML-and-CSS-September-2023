@@ -1,0 +1,20 @@
+main#wrapper {
+    background-color: #dddddd;
+    color: #95191a;
+    width: 300px;
+    border: 1px solid #000000;
+}
+
+
+
+/* Requirements
+•	<main> with id=wrapper as a container
+o	Background color: 
+o	Text color: 
+o	Width container: 
+o	Border: 
+Hints
+Use:
+•	<ol> with reversed attribute
+o	<ol reversed="reversed">
+•	Submit only reversed-list.html + reversed-list.css in ZIP archive file */

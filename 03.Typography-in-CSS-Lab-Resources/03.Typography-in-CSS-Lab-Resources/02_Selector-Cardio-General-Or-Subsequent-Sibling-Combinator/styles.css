@@ -1,0 +1,7 @@
+article :nth-child(4) {
+    color: red;
+}
+
+article :nth-child(7) {
+    color: red;
+}

@@ -1,0 +1,100 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+body {
+    font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+
+nav {
+    width: 200px;
+    border: 1px solid #e3e3e3;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #f5f5f5;
+}
+
+li {
+    list-style-type: none;
+    line-height: 25px;
+    margin-left: -15px;
+}
+
+a {
+    text-decoration: none;
+    color: #c83025;
+}
+
+i {
+    width: 1.14em;
+    padding-right: 0.28em;
+}
+
+button {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    line-height: 20px;
+    color: #ffffff;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+button.shopping {
+    background-color: #83a94c;
+}
+
+button.info {
+    background-color: #008ed0;
+}
+
+button.delete {
+    background-color: #cc4036;
+}
+
+i.fa-duotone.fa-house::before {
+    content: "\f015"; /* Use the Unicode code for the desired Font Awesome icon */
+    font-family: 'Font Awesome 5 Free'; /* Specify the Font Awesome font family */
+    font-weight: 900;
+    font-style: normal;
+}
+
+i.fa-solid.fa-book::before {
+    content: "\f02d"; /* Use the Unicode code for the desired Font Awesome icon */
+    font-family: 'Font Awesome 5 Free'; /* Specify the Font Awesome font family */
+    font-weight: 900;
+    font-style: normal;
+}
+
+i.fa-solid.fa-pencil::before {
+    content: "\f303"; /* Use the Unicode code for the desired Font Awesome icon */
+    font-family: 'Font Awesome 5 Free'; /* Specify the Font Awesome font family */
+    font-weight: 900;
+    font-style: normal;
+}
+
+i.fa-solid.fa-gears::before {
+    content: "\f085"; /* Use the Unicode code for the desired Font Awesome icon */
+    font-family: 'Font Awesome 5 Free'; /* Specify the Font Awesome font family */
+    font-weight: 900;
+    font-style: normal;
+}
+
+button.shopping::before {
+    content: "\f07a"; /* Use the Unicode code for the desired Font Awesome icon */
+    font-family: 'Font Awesome 5 Free'; /* Specify the Font Awesome font family */
+    font-weight: 900;
+    font-style: normal;
+}
+
+button.info::before {
+    content: "\f05a"; /* Use the Unicode code for the desired Font Awesome icon */
+    font-family: 'Font Awesome 5 Free'; /* Specify the Font Awesome font family */
+    font-weight: 900;
+    font-style: normal;
+}
+
+button.delete::before {
+    content: "\f2ed"; /* Use the Unicode code for the desired Font Awesome icon */
+    font-family: 'Font Awesome 5 Free'; /* Specify the Font Awesome font family */
+    font-weight: 900;
+    font-style: normal;
+}

@@ -61,12 +61,13 @@ body div:nth-child(6) *:hover {
 }
 
 /* Define a CSS rule that uses a Font Awesome icon */
-i {
+body div:nth-child(6) *::before {
     content: "\f063"; /* Use the Unicode code for the desired Font Awesome icon */
     font-family: 'Font Awesome 5 Free'; /* Specify the Font Awesome font family */
     font-weight: 900; /* Specify the desired icon weight (e.g., solid, regular) */
     font-style: normal;
-    font-size: 2em;
+    font-size: 1em;
+    margin-right: 0.2rem;
     /* font-size: large; */
   }
   

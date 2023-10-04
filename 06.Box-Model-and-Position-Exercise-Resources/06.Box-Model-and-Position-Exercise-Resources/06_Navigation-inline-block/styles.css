@@ -1,0 +1,40 @@
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 2rem;
+}
+
+span {
+    position: absolute;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 3em;
+    top: 4.4rem;
+}
+
+ul {
+    margin-top: 6em;
+    margin-left: 15em;
+    
+}
+
+li {
+    display: inline-block;
+    margin-left: 3em;
+    
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+hr {
+    margin-top: 3em;
+    border: 1px solid black;
+}
+
+h1 {
+    font-weight: 200;
+}
+

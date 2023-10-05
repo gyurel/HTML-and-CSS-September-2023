@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(238, 238, 238);
+  color: rgb(51, 51, 51);
+}
+
+
+
+article {
+  display: inline-block;
+  width: 45rem;
+  margin-left: 2em;
+}
+
+aside {
+  display: inline-block;
+  vertical-align: top;
+  width: 20rem;
+}
+
+img {
+  width: 30rem;
+  height: auto;
+}
+
+aside li {
+  margin-left: 2em;
+  text-indent: 0.1em;
+}

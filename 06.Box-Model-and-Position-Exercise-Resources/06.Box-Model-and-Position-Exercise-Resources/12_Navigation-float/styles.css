@@ -1,0 +1,113 @@
+body {
+    display: block;
+    font-size: 1.35em;
+    margin: 6em;
+    background-color: rgb(238, 238, 238);
+}
+
+main {
+    display: inline-block;
+    width: 55vw;
+}
+
+aside {
+    display: inline-block;
+    width: 30vw;
+    position: absolute;
+    top: 37vh;
+    padding: 6em;
+}
+
+
+hr {
+    border: 1.5px solid black;
+}
+
+header {
+    display: block;
+    width: 100%;
+}
+
+header p {
+    display: inline-block;
+    width: 30%;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+header nav {
+    display: inline-block;
+    padding-left: 30vw;
+}
+
+header ul li {
+    display: inline-block;
+    list-style: none;
+    padding-left: 2vw;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+a {
+    color: rgb(0, 102, 0);
+}
+
+img {
+    padding: 1em;
+    margin: 1em 0 2em 2em;
+    border: 0.2em solid black;
+
+}
+
+
+section {
+    /* display: block; */
+    overflow: auto;
+}
+
+
+.first-image {
+    float: right;
+    width: 12em;
+    height: auto;
+}
+
+.second-image {
+    float: left;
+    width: 12em;
+    height: auto;
+    margin: 0.5em 2em 2em 0;
+}
+
+/* .blockquote-div {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+} */
+
+blockquote p {
+    display: block;
+    position: relative;
+    top: 0em;
+    color: rgb(152, 146, 146);
+}
+
+.blockquote-div>p {
+    display: inline-block;
+    width: 45%;
+}
+
+.blockquote-div blockquote {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    width: 35%;
+    padding-left: 2em;
+    border-left: 1.5px solid rgb(152, 146, 146);
+    margin-top: 0;
+}
+
+
+

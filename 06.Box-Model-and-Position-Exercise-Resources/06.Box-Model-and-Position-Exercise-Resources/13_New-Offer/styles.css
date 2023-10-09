@@ -1,0 +1,13 @@
+main {
+    width: 700px;
+    height: 500px;
+    margin: 60px;
+}
+
+img.new {
+    display: block;
+    position: relative;
+    top: -200px;
+    right: 150px;
+    transform: translate(140%, -105%);
+}

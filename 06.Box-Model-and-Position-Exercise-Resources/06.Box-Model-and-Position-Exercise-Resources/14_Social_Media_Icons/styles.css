@@ -1,0 +1,40 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+
+ul {
+    display: block;
+}
+
+li {
+    display: inline-block;
+    margin: 1em;
+    padding: 1.5em;
+    background-color: lightgray;
+    border-radius: 50%;
+}
+
+svg {
+    font-size: 4em;
+    fill: rgb(52, 51, 51);
+}
+
+svg.facebook:hover {
+    fill: rgb(57, 86, 202);
+
+}
+
+svg.twitter:hover {
+    fill: rgb(120, 177, 232);
+}
+
+svg.google:hover {
+    fill: rgb(225, 39, 39);
+}
+
+svg.linkedin:hover {
+    fill: rgb(127, 188, 234);
+}
+
+svg.instagram:hover {
+    fill: rgb(242, 121, 40);
+}

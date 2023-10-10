@@ -11,18 +11,18 @@ body>* {
     background-color: #fff;
     color: #000;
     border-radius: 0.4rem;
-    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.5);
     text-transform: uppercase;
 }
 
 header {
     flex-basis: 100%;
-    min-height: 45px;
+    min-height: 50px;
 }
 
 footer {
     flex-basis: 100%;
-    min-height: 17px;
+    min-height: 20px;
 
 }
 
@@ -35,4 +35,9 @@ main {
 aside {
     flex: 2 1 20rem;
     align-self: stretch;
+}
+
+p {
+    margin: 0;
+    padding: 0;
 }

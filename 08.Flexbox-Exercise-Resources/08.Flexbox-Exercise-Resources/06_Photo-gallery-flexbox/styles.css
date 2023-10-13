@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    background-color: rgb(221, 221, 221);
+}
+
+section.gallery {
+    display: flex;
+    width: 1100px;
+    /* height: 50vh; */
+    display: flex;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 100vh;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    border: 0.6em solid black;
+    background-color: white;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}

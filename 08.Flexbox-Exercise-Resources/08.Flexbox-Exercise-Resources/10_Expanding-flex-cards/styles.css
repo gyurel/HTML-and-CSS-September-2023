@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(238, 238, 238);
+}
+
+.container {
+    display: flex;
+    gap: 0.8em;
+}
+
+div {
+    width: 5.5em;
+    height: 17em;
+    overflow: hidden;
+    border-radius: 0.5em;
+    box-shadow: 0 0 1em 0.5em rgba(0, 0, 0, 0.2);
+}
+
+div:hover {
+    width: 25em;
+    transition: 400ms;
+}

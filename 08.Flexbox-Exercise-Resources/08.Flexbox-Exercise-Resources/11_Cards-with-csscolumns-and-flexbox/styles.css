@@ -17,19 +17,28 @@ h2 {
     margin-top: 5em;
 }
 
-.cards-layout {
+.masonry {
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 2em;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: flex-start; */
     gap: 2em;
 }
 
 .masonry .card {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     width: 18vw;
-    flex: 1 1 auto;
+    /* height: auto; */
+    flex: 0 1 auto;
     background-color: white;
+    border-radius: 5px;
 }
 
 .flex .card {
@@ -38,6 +47,11 @@ h2 {
     width: 18vw;
     height: auto;
     background-color: white;
+    border-radius: 5px;
+}
+
+.card {
+    box-shadow: 0 0 1em 0.5em rgba(0, 0, 0, 0.3);
 }
 
 section, footer {
@@ -53,6 +67,7 @@ section, footer {
 img {
     width: 100%;
     height: auto;
+    border-radius: 5px 5px 0 0;
 }
 
 footer {
@@ -60,4 +75,8 @@ footer {
     min-width: 100%;
     left: 0;
     bottom: 0;
+}
+
+h2 {
+    margin-bottom: 2em;
 }

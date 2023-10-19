@@ -73,10 +73,16 @@ p {
 .banner .header {
     font-size: 2em;
     font-weight: 500;
-    margin: 0 0;
+    margin: 0.5em 0;
     padding: 0 0;
     justify-content: left;
     align-items: start;
+}
+
+button {
+    background-color: white;
+    padding: 0.2em 0.5em;
+    border-radius: 2px;
 }
 
 
@@ -175,6 +181,7 @@ footer {
 .footer-banner {
     /* padding: 0 5em; */
     max-width: 20%;
+    flex: 0 0 20%;
     
 } 
 
@@ -185,6 +192,7 @@ footer {
     width: 30%;
     word-wrap: break-word;
     align-content: center;
+    flex: 0 0 30%;
     /* padding-bottom: 2em; */
 } 
 
@@ -208,7 +216,8 @@ footer {
 }
 
 .contact-info {
-    max-width: 25%;
+    max-width: 28%;
+    flex: 0 0 28%;
 }
 
 .mobile-nav {
@@ -230,9 +239,14 @@ li {
     }
 
     
-    .mobile-nav ul li * {
-        display: inline-block;
+    .mobile-nav ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
     }
+
+
 
 
     .mobile-svg {

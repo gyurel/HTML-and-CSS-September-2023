@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 2em 4em;
+    position: relative;
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.5em;
+}
+
+header {
+    display: block;
+    position: relative;
+    padding: 0.4em;
+    margin: -1em 0 2em -0.5em;
+    overflow: hidden;
+}
+
+.timeline-title {
+    display: inline;
+    background-color: white;
+    border: 2px solid rgb(153, 153, 153);
+    width: auto;
+    padding: 3px;
+    font-size: 10px;
+}
+
+.timeline {
+    display: block;
+    position: relative;
+    padding: 2.5em;
+    border: 0.3rem solid rgb(153, 153, 153);
+    overflow: hidden
+}
+
+.timeline:before {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 100%;
+    border: 2.5px solid rgb(153, 153, 153);
+    top: 2em;
+    left: 3em;
+}
+
+article {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 3em;
+}
+
+.container :nth-child(odd) .circle {
+    display: block;
+    position: absolute;
+    content: '';
+    background-color: green;
+    width: 1.8em;
+    height: 1.8em;
+    border: 0.3rem solid rgb(153, 153, 153);
+    border-radius: 50%;
+    top: 0;
+    left: -2.75em;
+}
+
+.container :nth-child(even) .circle {
+    display: block;
+    position: absolute;
+    content: '';
+    background-color: orange;
+    width: 1.8em;
+    height: 1.8em;
+    border: 0.3rem solid rgb(153, 153, 153);
+    border-radius: 50%;
+    top: 0;
+    left: -2.75em;
+}
+
+h3 {
+    margin-bottom: 1.5em;
+    font-size: 24px;
+    font-style: italic;
+}
+
+ul {
+    margin-left: 2em;
+    margin-top: 1.5em;
+}
+
+span {
+    font-weight: 700;
+}
+
+@media screen and (width > 599px) {
+    .timeline {
+        max-width: 1200px;
+        margin: 2em auto;
+    }
+
+    .timeline:before {
+        left: calc(50% - 1.25px);
+    }
+
+    .container :nth-child(odd) .circle {
+        left: calc(50% - 34px + 0.3rem);
+    }
+
+    .container :nth-child(even) .circle {
+        left: calc(50% - 34px + 0.3rem);
+    }
+
+    .container :nth-child(odd) .paragraph {
+        margin-left: 50%;
+    }
+
+    .container :nth-child(even) .paragraph {
+        margin-right: 57%;
+        text-align: right;
+    }
+
+    .timeline-title {
+        display: block; /* Change inline to block */
+        background-color: white;
+        border: 2px solid rgb(153, 153, 153);
+        width: max-content; /* Set the width to max-content */
+        padding: 3px;
+        font-size: 10px;
+        margin: 0 auto; /* Center the element horizontally */
+    }
+
+}
